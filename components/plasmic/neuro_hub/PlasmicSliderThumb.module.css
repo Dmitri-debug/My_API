@@ -1,0 +1,20 @@
+.root:global(.__wab_instance) {
+  position: relative;
+  background: var(--token-A0QVyJ6ycndT);
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  height: var(--token-qnj-r42KEaco);
+  width: var(--token-qnj-r42KEaco);
+  border-radius: 99px;
+  border: 1px solid var(--token-SaPsqIzkU1y4);
+}
+.root[data-hovered]:global(.__wab_instance) {
+  border-width: 2px;
+}
+.root[data-focus-visible]:global(.__wab_instance) {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: var(--token-SaPsqIzkU1y4);
+  outline-offset: 1px;
+}
